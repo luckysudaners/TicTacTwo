@@ -10,7 +10,9 @@
   background:#56baed;
 }
 body{
-  background:rgb(88, 145, 88);
+  background-image: url(./img/tttwall.jpg);
+  
+  
 }
 .select-box, .play-board, .result-box{
   position: absolute;
@@ -208,4 +210,11 @@ body{
   outline: none;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(./img/tttwall.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
 }
